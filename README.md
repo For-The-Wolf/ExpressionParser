@@ -1,5 +1,5 @@
 # ExpressionParser
-A Haskell library for parsing and analysing expressions - written as a learning exercise when exporing the language, functional design patterns, category theory etc.
+A Haskell library for parsing and analysing expressions - old project, written as a learning exercise when exploring Haskell, functional design patterns, category theory etc.
 
 Expressions are represented through the `Expr` type - a recursive monadic structure which is a varation of the Tree monad. The monadic bind operation `>>=` essentially performs a variable substitution.
 
